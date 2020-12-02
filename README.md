@@ -36,3 +36,9 @@ arguments:
 - Run `python3 main.py --video_dir AIST_v1/video --tracking_dir AIST_v1/tr_mid --min_frame 90 --shot_file shot/singer_4_toshot.txt --output_file singer_mid.mp4`
 3. 追蹤目標為開場右側人物、最高切換頻率使用預設值、運鏡序列使用 shot/kpop_22_toshot.txt、輸出檔案為 kpop_right.mp4
 - Run `python3 main.py --video_dir AIST_v1/video --tracking_dir AIST_v1/tr_right --shot_file shot/kpop_22_toshot.txt --output_file kpop_right.mp4`
+
+### Demo
+#### Video source
+[![](http://i3.ytimg.com/vi/BkWlWx_QviQ/hqdefault.jpg)](https://youtu.be/BkWlWx_QviQ "Click to play on Youtube.com")
+#### Result
+[![](http://i3.ytimg.com/vi/7R7eGVQ1Zhk/hqdefault.jpg)](https://youtu.be/7R7eGVQ1Zhk "Click to play on Youtube.com")
