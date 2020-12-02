@@ -32,7 +32,7 @@ arguments:
 #### Example
 1. 追蹤目標為開場左側人物、最高切換頻率使用預設值、運鏡序列使用 shot/kpop_22_toshot.txt、輸出檔案為 kpop_left.mp4
 - Run `python3 main.py --video_dir AIST_v1/video --tracking_dir AIST_v1/tr_left --shot_file shot/kpop_22_toshot.txt --output_file kpop_left.mp4`
-2. 追蹤目標為開場中間人物、最切換頻率自訂 (90 frame)、運鏡序列使用 shot/singer_4_toshot.txt、輸出檔案為 singer_mid.mp4
+2. 追蹤目標為開場中間人物、最高切換頻率自訂 (90 frame)、運鏡序列使用 shot/singer_4_toshot.txt、輸出檔案為 singer_mid.mp4
 - Run `python3 main.py --video_dir AIST_v1/video --tracking_dir AIST_v1/tr_mid --min_frame 90 --shot_file shot/singer_4_toshot.txt --output_file singer_mid.mp4`
 3. 追蹤目標為開場右側人物、最高切換頻率使用預設值、運鏡序列使用 shot/kpop_22_toshot.txt、輸出檔案為 kpop_right.mp4
 - Run `python3 main.py --video_dir AIST_v1/video --tracking_dir AIST_v1/tr_right --shot_file shot/kpop_22_toshot.txt --output_file kpop_right.mp4`
