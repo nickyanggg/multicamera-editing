@@ -7,6 +7,7 @@ RUN apt-get update \
 		python3-scipy \
 		python3-matplotlib \
 		libsndfile1 \
+		ffmpeg \
 	&& dpkg-reconfigure --frontend noninteractive tzdata \
 	&& rm -rf /var/lib/apt/lists/*
 RUN mkdir code
