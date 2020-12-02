@@ -1,0 +1,6 @@
+librosa==0.8.0
+mtcnn==0.1.0
+multiprocess==0.70.11.1
+numpy==1.18.1
+pykalman==0.9.5
+tqdm==4.48.2
